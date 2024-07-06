@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:url("WhatsApp Image 2024-07-06 at 10.46.49_cd607cd0.jpg");
+
+}
+#clock-container{
+    display:grid;
+    place-items: center;
+    height:100vh;
+}
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0.107);
+    font-size: 80px;
+    font-family: monospace;
+    backdrop-filter:blur(3px);
+    width:100%;
+    color:whitesmoke;
+    text-shadow: 5px 5px 10px rgb(250, 129, 149);
+}
+@media(max-width:480px){
+    #clock{
+        font-size:40px;
+    }
+}
